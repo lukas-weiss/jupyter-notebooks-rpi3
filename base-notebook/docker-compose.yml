@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jupyter:
+    image: lweiss89/jupyter-base-notebook:latest
+    restart: always
+    ports:
+      - "8888:8888"
+    volumes:
+      - "notebooks:/root/notebooks"
+volumes:
+  notebooks:
