@@ -14,7 +14,9 @@ Contains just basic depedencies for running jupyter notebooks without the data s
 ### Docker Hub
 `lweiss89/jupyter-base-notebook`
 
-**Status:** <span style="color:red">not released</span>
+**Status:** released
+
+https://hub.docker.com/repository/docker/lweiss89/jupyter-base-notebook
 
 ## scipy-notebook
 Contains the most relevant dependencies of the data science stack for running Jupyter Notebooks and is based on `base notebook`
@@ -29,7 +31,7 @@ Contains the most relevant dependencies of the data science stack for running Ju
 ### Docker Hub
 `lweiss89/jupyter-scipy-notebook`
 
-**Status:** <span style="color:red">not released</span>
+**Status:** not released
 
 ## TODO's
 * Build images on RPi3 and release them to `Docker Hub`
